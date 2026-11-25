@@ -1,0 +1,160 @@
+{
+  "breeds": [
+    "Holstein Friesian (HF)",
+    "Jersey",
+    "Gir Cow",
+    "Sahiwal",
+    "Red Sindhi",
+    "Tharparkar",
+    "Rathi",
+    "Murrah Buffalo",
+    "Mehsana Buffalo",
+    "Jaffrabadi Buffalo",
+    "Crossbreed HF/Jersey",
+    "Kangayam",
+    "Umblachery",
+    "Bargur",
+    "Other Breed"
+  ],
+  "injection_categories": [
+    "Antibiotic",
+    "Vitamin Injection",
+    "Calcium Injection",
+    "Mineral Injection",
+    "Vaccination",
+    "Deworming",
+    "Hormonal Treatment",
+    "Pain Relief / Anti-inflammatory",
+    "Saline / IV Fluid",
+    "Other"
+  ],
+  "dosage_units": [
+    "ml",
+    "cc",
+    "mg",
+    "bolus",
+    "vial"
+  ],
+  "injection_methods": [
+    "Intramuscular (IM)",
+    "Subcutaneous (SC)",
+    "Intravenous (IV)",
+    "Intramammary",
+    "Oral"
+  ],
+  "vaccine_suggestions": [
+    "Foot & Mouth Disease (FMD)",
+    "Black Quarter (BQ)",
+    "Hemorrhagic Septicemia (HS)",
+    "Brucellosis S19",
+    "Theileriosis",
+    "Anthrax",
+    "Infectious Bovine Rhinotracheitis (IBR)",
+    "Lumpy Skin Disease (LSD)",
+    "Rabies Vaccine"
+  ],
+  "diseases": [
+    "Mastitis (மடி நோய்)",
+    "Milk Fever (பால் காய்ச்சல்)",
+    "Foot Rot (குளம்பு அழற்சி)",
+    "Ketosis (கீட்டோசிஸ்)",
+    "Bloat / Tympany (வயிற்று உப்புசம்)",
+    "Theileriosis",
+    "Pneumonia",
+    "Indigestion (செரிமானமின்மை)",
+    "Acidosis",
+    "Prolapse",
+    "Metritis",
+    "Lumpy Skin Disease",
+    "General Fever / Weakness"
+  ],
+  "health_statuses": [
+    "Healthy",
+    "Sick / Under Treatment",
+    "Quarantine",
+    "Recovering",
+    "Dry"
+  ],
+  "recovery_statuses": [
+    "Under Treatment",
+    "Improving",
+    "Fully Recovered",
+    "Chronic",
+    "Critical"
+  ],
+  "pregnancy_statuses": [
+    "Non-Pregnant",
+    "Pregnant",
+    "Inseminated",
+    "Recently Calved",
+    "Dry"
+  ],
+  "feed_categories": [
+    "Green Fodder (பச்சை தீவனம்)",
+    "Dry Fodder (உலர் தீவனம்)",
+    "Concentrates & Grain (அடர்தீவனம்)",
+    "Silage (பதப்படுத்திய புல்)",
+    "Mineral Mixture (தாது உப்பு கலவை)",
+    "Supplements & Tonics (கூடுதல் சத்துக்கள்)"
+  ],
+  "feed_units": [
+    "kg",
+    "bundle",
+    "gram",
+    "litre"
+  ],
+  "medicine_categories": [
+    "Antibiotic",
+    "Antipyretic / Fever",
+    "Anti-inflammatory / Pain",
+    "Dewormer",
+    "Tonic / Mineral Mix",
+    "Digestive / Probiotic",
+    "Topical Ointment",
+    "Antiseptic Spray"
+  ],
+  "medicine_frequencies": [
+    "Once Daily (OD)",
+    "Twice Daily (BD)",
+    "Thrice Daily (TDS)",
+    "Alternate Days",
+    "Weekly",
+    "As Needed (SOS)"
+  ],
+  "income_categories": [
+    "Milk Sales (பால் விற்பனை)",
+    "Cow / Calf Sales (மாடு விற்பனை)",
+    "Dung / Compost Organic Manure (சாணம் / உரம்)",
+    "Ghee & Butter Products (நெய் / வெண்ணெய்)",
+    "Bull Breeding Service (இனச்சேர்க்கை சேவை)",
+    "Government Subsidy (அரசு மானியம்)",
+    "Other Farm Income (இதர வருமானம்)"
+  ],
+  "expense_categories": [
+    "Feed & Fodder (தீவன செலவு)",
+    "Veterinary & Medicines (மருத்துவ செலவு)",
+    "Injections & Vaccines (ஊசி & தடுப்பூசி)",
+    "Breeding / AI Semen (இனப்பெருக்க செலவு)",
+    "Labor & Worker Wages (பண்ணை கூலி)",
+    "Equipment & Machinery (இயந்திர பராமரிப்பு)",
+    "Electricity & Water (மின்சாரம் & குடிநீர்)",
+    "Shed Repair & Upkeep (கொட்டகை பராமரிப்பு)",
+    "Transport & Logistics (போக்குவரத்து)",
+    "Other Farm Expense (இதர செலவு)"
+  ],
+  "countries": [
+    "India",
+    "Sri Lanka",
+    "Malaysia",
+    "United Arab Emirates",
+    "Kenya",
+    "United States",
+    "Other"
+  ],
+  "business_types": [
+    "Commercial Dairy",
+    "Organic Farm",
+    "Family / Smallholder Farm",
+    "Breeding Center"
+  ]
+}

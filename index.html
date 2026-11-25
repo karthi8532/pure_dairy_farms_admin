@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="PureDairy SaaS Super Admin Web Portal - Manage Customers, Approvals, and One-Time Licenses.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="PureDairy Admin">
+  <title>PureDairy - SaaS Super Admin Web Panel</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body {
+      margin: 0;
+      background-color: #F8FAFC;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .loading-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #F8FAFC;
+      z-index: 99999;
+    }
+    .spinner {
+      width: 44px;
+      height: 44px;
+      border: 3.5px solid #E6F7F3;
+      border-top: 3.5px solid #00A389;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="loading-container" id="loading">
+    <div class="spinner"></div>
+    <h3 style="margin-top: 18px; font-weight: 800; color: #0F172A; letter-spacing: 0.5px; font-size: 16px;">PUREDAIRY SUPER ADMIN</h3>
+    <p style="color: #64748B; font-size: 13px; margin-top: 4px;">Loading portal...</p>
+  </div>
+  <script>
+    function removeLoadingScreen() {
+      var loader = document.getElementById('loading');
+      if (loader) {
+        loader.style.opacity = '0';
+        loader.style.pointerEvents = 'none';
+        loader.style.transition = 'opacity 0.25s ease';
+        setTimeout(function() {
+          if (loader && loader.parentNode) {
+            loader.parentNode.removeChild(loader);
+          }
+        }, 250);
+      }
+    }
+    // Dismiss loading screen as soon as Flutter renders the first frame
+    window.addEventListener('flutter-first-frame', removeLoadingScreen);
+    // Instant fallback timer: never block the user for more than 1.8 seconds
+    setTimeout(removeLoadingScreen, 1800);
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
